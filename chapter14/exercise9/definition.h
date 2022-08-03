@@ -1,8 +1,6 @@
 #ifndef UNIT14EXER9_DEFINITION_H
 #define UNIT14EXER9_DEFINITION_H
 
-#endif //UNIT14EXER9_DEFINITION_H
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -29,3 +27,5 @@ void choose_c(int num,struct plane arr[num]);
 void choose_d(int num,struct plane (*arr)[num]);
 void choose_e(int num,struct plane (*arr)[num]);
 void choose_g(int num,struct plane (*arr)[num]);
+
+#endif //UNIT14EXER9_DEFINITION_H
